@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * My first
+ * main - Entry point
  *
- * Commentary
+ * 
  */
 
 int main(void)
