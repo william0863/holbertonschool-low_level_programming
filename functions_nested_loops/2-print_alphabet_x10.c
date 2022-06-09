@@ -1,16 +1,19 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet 10times, in lowercase.
+ * print_alphabet_x10 - prints the alphabet, in lowercase.
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-char letter;
-
-for (letter = 'a'; letter <= 'z'; letter++)
+int kirikou;
+int i;
+for (kirikou = 0 ; kirikou < 10; kirikou++)
 {
-_putchar(letter);
+for (i = 97 ; i <= 122 ; i++)
+{
+_putchar(i);
 }
-_putchar(10);
+_putchar('\n');
+}
 }
