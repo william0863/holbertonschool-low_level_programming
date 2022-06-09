@@ -1,1 +1,1 @@
-int main(void)
+_putchar int main (void)
