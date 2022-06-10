@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * jack_bauer - Write a function that prints every minute of the day  from 00:00 to 23:59.
- * @n: first operand
+ * jack_bauer - print every minute of the day  from 00:00 to 23:59.
+ *
  *
  * Return: Always 0.
  */
