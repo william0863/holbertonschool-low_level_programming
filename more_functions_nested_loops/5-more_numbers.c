@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * more_numbers - A function that prints numbers 0 to 14.
- * @c : 1st operand
- * @i : 2nd operand
+ * more_numbers - function that prints 0 to 14, 10 times.
  */
+
 void more_numbers(void)
 {
-char c;
-char i;
+	char i;
+	int counter;
 
-while (i = '0'; i <= '9'; i++)
-{
-for (c = "0"; c <= "14"; c++)
-{
-_putchar(c);
-}
-_putchar(i);
-}
-_putchar('\n');
+	for (counter = 1; counter <= 10; counter++)
+	{
+		for (i = 0; i <= 14; i++)
+		{
+			if (i / 10 > 0)
+				_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+		}
+		_putchar('\n');
+	}
 }
