@@ -15,6 +15,7 @@ int rows;
 
 rows = n;
 
+if (n <= 0)
 _putchar('\n');
 for (i = 1; i <= rows; i++)
 {
