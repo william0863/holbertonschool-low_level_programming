@@ -1,0 +1,28 @@
+#include "stdio.h"
+
+/**
+ * main - Print numbers from 1 to 100.
+ * print Fizz for multiples of 3
+ * print Buzz for multiples of 5
+ * print FizzBuzz for multiples of both
+ * Return: 0
+ */
+
+int main(void)
+{
+int x;
+for (x = 1; x < 101; x++)
+{
+if (x % 15 == 0)
+printf("FizzBuzz");
+else if (x % 3 == 0)
+printf("Fizz");
+else if (x % 5 == 0)
+printf("Buzz");
+else
+printf("%d", x);
+if (x < 100)
+printf(" ");
+}
+return (0);
+}
