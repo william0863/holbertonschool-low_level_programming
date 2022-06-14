@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "main.h"
 
 /**
  * main - Print numbers from 1 to 100.
@@ -24,5 +25,6 @@ printf("%d", x);
 if (x < 100)
 printf(" ");
 }
+putchar('\n');
 return (0);
 }
