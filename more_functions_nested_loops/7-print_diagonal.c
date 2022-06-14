@@ -3,20 +3,24 @@
 /**
  * print_diagonal - Print a diagonal n times with _putchar.
  * @n : number of characters to draw.
- * @i : 
- * @b : 
+ *
+ *
  */
 
 void print_diagonal(int n)
 {
 int i;
-int b;
-for (i = n; i <= b; ++i)
-{
 int j;
-for (j = n; j <= i; ++j)
+int rows;
+
+rows = n;
+
+for (i = 1; i <= rows; ++i)
 {
-_putchar('\\');
+for (j = 1; j <= i; ++j)
+_putchar(' ');
+{
+_putchar ('\\');
 }
 _putchar('\n');
 }
