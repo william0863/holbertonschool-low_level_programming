@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes a character
- * @c: character to print
- */
+* _putchar - writes a character
+* @c: character to print
+*/
 
 int _putchar(char c)
 {
