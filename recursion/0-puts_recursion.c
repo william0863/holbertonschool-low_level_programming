@@ -8,7 +8,7 @@
  
 void _puts_recursion(char *s)
 {
-  s = 
+  s = "p"; 
   _putchar(*s);
   _putchar('\n');
   return;
