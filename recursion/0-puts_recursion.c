@@ -3,9 +3,13 @@
 
 /**
  * _puts_recursion - function that prints a string, followed by a new line.
- * @s : number of characters to draw.
+ * @s : string.
  */
  
 void _puts_recursion(char *s)
 {
+  s = 
+  _putchar(*s);
+  _putchar('\n');
+  return;
 }
