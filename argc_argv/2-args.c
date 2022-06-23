@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(int argc, char *argv[])
-{
-	int counter;
-	for(counter=0; counter<argc; counter++)
-		printf("argv[%2d]: %s\n",counter,argv[counter]);
+    int main(int args,char *argv[])
+    {
+        int i=0;
+        for(i=0;i<args;i++)
+             printf("\n%s",argv[i]);
+        return 0;
+    }
 
-	return 0;
-}
