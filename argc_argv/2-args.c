@@ -5,8 +5,7 @@
     {
         int i=0;
         for(i=0;i<args;i++)
-             printf("\n%s",argv[i]);
-			 printf("\n");
+             printf("%s\n",argv[i]);
         return 0;
     }
 
