@@ -4,7 +4,7 @@
 /**
  * print_name_as_is - function that prints a name.
  * @name: name
- *
+ *@f: ptr
  * Return: nothing.
  */
 
