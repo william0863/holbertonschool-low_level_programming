@@ -9,14 +9,23 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list ap;
-int i, sum;
-va_start (ap, count);
+va_list args;
+unsigned int i;
+i = 0;
 
-sum = 0;
+va_start(args, n);
 
-if (separator == NULL)
-	return (0);
+while (i < n)
+{
+printf("%d", va_arg(args, unsigned int));
 
-_putchar('\n');
+if (i != n-1 && separator != NULL)
+{
+	printf("%s", separator);
+}
+i++;
+}
+
+va_end(args);
+printf("\n");
 }
