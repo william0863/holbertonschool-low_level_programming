@@ -4,6 +4,7 @@
 
 /**
  * print_numbers - Function that prints numbers, followed by a new line.
+ *@separator: the separator between args
  *@n: number of integers passed to the function
  * Return: The sum of all its parameters or 0.
  */
@@ -19,7 +20,7 @@ while (i < n)
 {
 printf("%d", va_arg(args, unsigned int));
 
-if (i != n-1 && separator != NULL)
+if (i != n - 1 && separator != NULL)
 {
 	printf("%s", separator);
 }
