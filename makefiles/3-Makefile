@@ -9,7 +9,7 @@ RM=
 
 all: m.h $(OBJ)
 
-		$(CC) $(OBJ) -o $(NAME)
+		$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 rm -f *~ school
