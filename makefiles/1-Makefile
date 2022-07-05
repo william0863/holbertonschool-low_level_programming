@@ -1,12 +1,11 @@
 CC=gcc
-CFLAGS=-Wall -0
+CFLAGS=-Wall -O
 LDFLAGS=
 EXEC=school
-SRC=$(wildcard *.c)
+SRC=main.c school.c
 OBJ=$(SRC:.c=.o)
 
-all: $(EXEC)
+all: m.h $(SRC)
 
-school: $(OBJ)
-	$(CC) -o $@ $^ $(LDFLAGS)
+		$(CC) $(SRC) -o school
 
