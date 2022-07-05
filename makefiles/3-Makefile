@@ -13,3 +13,13 @@ all: m.h $(OBJ)
 
 clean:
 rm -f *~ school
+
+oclean:
+rm -f main.o school.o
+
+fclean:
+rm -f *~ school
+rm -f main.o school.o
+
+re:
+rm -f main.o school.o
