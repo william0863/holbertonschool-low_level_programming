@@ -1,25 +1,21 @@
-CC=gcc
-CFLAGS=-Wall -O
+CC= gcc
+CFLAGS= -Wall -O
 LDFLAGS=
-EXEC=$(NAME)
-SRC=main.c school.c
-OBJ=$(SRC:.c=.o)
-NAME=school
-RM=
+SRC= main.c school.c
+OBJ= $(SRC:.c=.o)
+NAME= school
+RM= rm -f
 
 all: m.h $(OBJ)
 
-		$(CC) $(CFLAGS) -c $< -o $@
+		$(CC) $(OBJ) $(NAME) -o
 
 clean:
-rm -f *~ school
+$(RM) *~ $(NAME)
 
 oclean:
-rm -f main.o school.o
+$(RM) $(OBJ)
 
-fclean:
-rm -f *~ school
-rm -f main.o school.o
+fclean: clean oclean
 
-re:
-rm -f main.o school.o
+re: oclean all
