@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"stdio.h": "c",
+		"stdlib.h": "c",
+		"2-strlen.C": "cpp",
+		"main.h": "c",
+		"function_pointers.h": "c",
+		"variadic_functions.h": "c",
+		"stdarg.h": "c"
+	}
+}

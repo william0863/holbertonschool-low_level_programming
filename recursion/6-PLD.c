@@ -7,23 +7,22 @@
  *@kirikou: true if not prime false if prime
  * Return: 1 if number is prime, 0 if not
  */
-int is_prime_number(int n)
-int i;
-int kirikou = 0;
-{
-	if (n == 0 || n == 1)
-	kirikou = 1;
 
-  for (i = 2; i <= n / 2; ++i)
-  {
-    if (n % i == 0)
-	{
-		kirikou = 1;
-break;
-}
-}
-if (kirikou == 0)
-return (1);
-else
-return (0);
-}
+int is_prime_number(int n)
+
+int c = 2;
+
+if n % c == 0
+n pas premier
+c++;
+
+break ?
+
+for c == 2 jusqu à n/2
+
+12345 ... (10) 11 12 13 14 15 16 ....
+
+if c x c > n
+n est premier
+
+
