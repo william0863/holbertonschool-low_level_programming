@@ -6,6 +6,7 @@
 		"main.h": "c",
 		"function_pointers.h": "c",
 		"variadic_functions.h": "c",
-		"stdarg.h": "c"
+		"stdarg.h": "c",
+		"string.h": "c"
 	}
 }
